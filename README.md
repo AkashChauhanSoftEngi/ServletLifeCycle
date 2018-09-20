@@ -13,11 +13,11 @@
 * HttpServlet, GenericServlet are popular Implementation classes
 * Servlet Life Cycle
   - three main phases - construction, service and destroy.
-    A. Construction: 1.Loads the servlet class, 2. Creates servlet instance, 3. calling init() method
-    B. Service: Invokes the service method.
-    C. Destroy: If the container needs to remove the servlet, it finalizes servlet by calling servlet's destroy method
+    - Construction: 1.Loads the servlet class, 2. Creates servlet instance, 3. calling init() method
+    - Service: Invokes the service method.
+    - Destroy: If the container needs to remove the servlet, it finalizes servlet by calling servlet's destroy method
 * Servlet Example, Reference: https://www.youtube.com/watch?v=WbyXPH5Obu4
 * HttpServlet Example, Reference: https://www.youtube.com/watch?v=01mgc2rrr_o
   - HttpServlet has two major methods
     - doPost(req,res): for post request
-	  - doGet(req,res): for get request
+    - doGet(req,res): for get request
