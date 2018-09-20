@@ -21,3 +21,15 @@
   - HttpServlet has two major methods
     - doPost(req,res): for post request
     - doGet(req,res): for get request
+
+
+## Cntext Path
+* the context path is the portion of the request URL that indicates the context of the request.
+* Where to find peoperties, file, image, css and all
+* request.getContextPath()- return root path of your application
+* while / returns parent directory of a file.
+* It is always recommended to use context path instead hard-coding your context path
+```jsp
+	<%= request.getContextPath() %>
+	<a href="${pageContext.request.contextPath}/info/page.html">
+```
