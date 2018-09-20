@@ -28,11 +28,12 @@
 * Where to find peoperties, file, image, css and all
 * request.getContextPath()- return root path of your application
 * while / returns parent directory of a file.
-* It is always recommended to use context path instead hard-coding your context path
+* It is always recommended to use context path ${...} instead hard-coding your context path
 ```jsp
 	<%= request.getContextPath() %>
 	<a href="${pageContext.request.contextPath}/info/page.html">
 ```
 * Spring MVC provide spring tag to access the resouces ((static/dynamic))
 ```html
+	<img src="<spring:url value='/static/images/a.gif'/>"/>
 ```
