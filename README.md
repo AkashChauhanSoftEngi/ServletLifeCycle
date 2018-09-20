@@ -33,3 +33,6 @@
 	<%= request.getContextPath() %>
 	<a href="${pageContext.request.contextPath}/info/page.html">
 ```
+* Spring MVC provide spring tag to access the resouces ((static/dynamic))
+```html
+```
