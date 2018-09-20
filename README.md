@@ -24,6 +24,7 @@
 
 
 ## Context Path
+* Where to look
 * the context path is the portion of the request URL that indicates the context of the request.
 * Where to find peoperties, file, image, css and all
 * request.getContextPath()- return root path of your application
